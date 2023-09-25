@@ -20,10 +20,9 @@ void swapnode(listint_t **head, listint_t **i, listint_t *j)
 	(*i)->prev = j;
 	*i = j->prev;
 }
-
 /**
  * insertion_sort_list - sorts doubly linked list of ints
- * 			in ascending order
+ * in ascending order
  * @list: A pointer to the head of a doubly-linked list of integers.
  */
 void insertion_sort_list(listint_t **list)
